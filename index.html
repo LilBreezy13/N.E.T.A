@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./Css/bootstrap.min.css" />
+  <title>Neta Expense</title>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="nav-logo">
+        <img class="logo-img" src="./Images/Icons/icons8-combo-chart.gif" alt="" />
+        <p class="nav-logo-text">Neta Expense.</p>
+      </div>
+
+      <ul class="ul">
+        <li><a href="">Need Help?</a></li>
+        <li><a href="">Read Our Blog</a></li>
+      </ul>
+
+      <div class="profile-page">
+        <img class="profile-img" src="./Images//Icons/icons8-administrator-male-94.png" alt="" />
+        <p class="profile-text">Hi Ayo!</p>
+      </div>
+
+      <div class="list">
+        <img class="list-img" src="./Images/Icons/icons8-rhombus-loader.gif" alt="" />
+      </div>
+    </div>
+  </nav>
+
+  <!-- BODY  -->
+  <div class="body">
+    <div class="row">
+      <div class="col-2">
+        <div class="dashboard">
+          <br />
+
+          <ul>
+            <li class="dashboard-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-ui-checks-grid" viewBox="0 0 16 16">
+                <path
+                  d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1zm9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-3zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-3zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2v-3zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0l2-2z" />
+              </svg>
+              <p>Dashboard</p>
+            </li>
+            <br />
+            <br />
+
+            <li class="dashboard-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-cash-stack" viewBox="0 0 16 16">
+                <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                <path
+                  d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z" />
+              </svg>
+              <p>Bills & Payments</p>
+            </li>
+            <br />
+            <br />
+
+            <li class="dashboard-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25 " height="25" fill="currentColor"
+                class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z" />
+              </svg>
+              <p>Expenses</p>
+            </li>
+            <br />
+            <br />
+
+            <li class="dashboard-link">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-gear-wide-connected" viewBox="0 0 16 16">
+                <path
+                  d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434l.071-.286zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5zm0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78h4.723zM5.048 3.967c-.03.021-.058.043-.087.065l.087-.065zm-.431.355A4.984 4.984 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8 4.617 4.322zm.344 7.646.087.065-.087-.065z" />
+              </svg>
+              <p>Settings</p>
+
+            </li>
+            <br />
+            <br />
+
+            <li class="dashboard-link">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-question-octagon-fill" viewBox="0 0 16 16">
+                <path
+                  d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zM5.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z" />
+              </svg>
+
+              <p>Get Help?</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-10">
+
+        <div class="row gx-5">
+          <div class="col-2 food-row">
+
+            <!-- FOOD&DRINKS -->
+            <div class="foodanddrinks">
+
+              <h6 class="FOOD"> Food & Drinks <span class="dot"></span>
+
+              </h6>
+
+
+              <img class="food-img" src="./Images/Icons/icons8-porridge-32 2222222222222222222222.png" alt="">
+              <br>
+              <span class="balance"> GH <span>&#8373;</span> 2,600.00</span>
+            </div>
+
+          </div>
+
+
+          <div class="col-2 gx-5 ">
+
+            <!-- BILLS AND PAYMENTS  -->
+<div class="dummy">
+  <h6 class="BILL"> Bills & Payments <span class="dot"></span>
+
+  </h6>
+  <img class="bill-img" src="./Images/Icons/icons8-porridge-32 2222222222222222222222.png" alt="">
+  <br>
+  <span class="balance"> GH <span>&#8373;</span> 2,600.00</span>
+</div>
+            
+
+          </div>
+          <div class="col-8">
+            
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repellat, iste?
+          </div>
+        </div>
+        <div class="img-chart">
+          <img class="chart" src="./Images/Icons/chart.png" alt="">
+        </div>
+      </div>
+
+      <!-- LARGE SESSION  -->
+
+
+
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <script src="./script.js"></script>
+  <script src="./Js//bootstrap.min.js"></script>
+</body>
+
+</html>
